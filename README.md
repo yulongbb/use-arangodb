@@ -2,6 +2,7 @@
 如何使用arangodb开发应用
 ## 安装
 
+docker run -d -p 8529:8529 -e ARANGO_ROOT_PASSWORD=root  arangodb/arangodb:3.8.0
 
 ## 导入数据
 
