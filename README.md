@@ -36,3 +36,16 @@ docker run -d -p 8529:8529 -e ARANGO_ROOT_PASSWORD=root  arangodb/arangodb:3.8.0
 进入mps服务，切换API, 可以看到自动映射的API接口。
 
 ## 数据展示
+
+克隆项目代码
+
+git@github.com:yulongbb/use-arangodb.git
+
+进入项目根目录
+cd svelte-app
+
+安装依赖
+npm install
+
+本地运行
+npm run dev
